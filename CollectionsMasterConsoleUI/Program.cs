@@ -43,6 +43,7 @@ namespace CollectionsMasterConsoleUI
             Array.Reverse(_50Random); //returning the array to its original order - AJ
 
             Console.WriteLine("---------REVERSE CUSTOM------------");
+            Methods.PrintReverseArray(_50Random);
 
             Console.WriteLine("-------------------");
 

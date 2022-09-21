@@ -25,6 +25,14 @@ namespace CollectionsMasterConsoleUI
             }
             return randomInts;
         }
+        public static void PrintReverseArray(int[] array)
+        {
+            for (int i = array.Length - 1; i > 0; i--)
+            {
+                Console.Write($"{array[i]}, ");
+            }
+            Console.WriteLine(array[0]);
+        }
         public static void ArrayPrint(int[] array)
         {
             for (int i = 0; i < array.Length - 1; i++)
